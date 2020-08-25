@@ -1,8 +1,8 @@
 //create subclass for rainbowDancer
 var RainbowDancer = function(top, left, timeBetweenSteps) {
 //assign to function that takes 2 parameters, top, left, time between steps
-Dancer.call(this, top, left, timeBetweenSteps);
-this.$node.addClass('RainbowDancer');
+  Dancer.call(this, top, left, timeBetweenSteps);
+  this.$node.addClass('RainbowDancer');
 
 
 //call Dancer and assign this and other variables

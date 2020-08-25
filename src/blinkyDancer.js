@@ -14,7 +14,7 @@ makeBlinkyDancer.prototype.constructor = makeBlinkyDancer;
 // Make BlinkyDancer.protoype.step (method) function
 makeBlinkyDancer.prototype.step = function() {
   //  Reference the old step by calling Dancer.prototype.step and calling that
-Dancer.prototype.step.call(this);
+  Dancer.prototype.step.call(this);
 
 //  Use the jQuery toggle method
 //this.$node.toggle();
