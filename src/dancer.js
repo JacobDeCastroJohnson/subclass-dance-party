@@ -31,6 +31,10 @@ Dancer.prototype.setPosition = function(top, left) {
   this.$node.css(styleSettings);
 };
 
+Dancer.prototype.lineUp = function() {
+  this.$node.animate({top: '500px'}, 2000);
+};
+
 // now that we have defined the Dancer object, we can start setting up important parts of it by calling the methods we wrote
 // this one sets the position to some random default point within the body
 // Dancer.setPosition(top, left);

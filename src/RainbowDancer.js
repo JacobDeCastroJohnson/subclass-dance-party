@@ -14,12 +14,10 @@ RainbowDancer.prototype.constructor = RainbowDancer;
 RainbowDancer.prototype.step = function() {
   Dancer.prototype.step.call(this);
 
-  this.$node.toggle();
-
   var r = Math.floor(Math.random() * 255);
   var g = Math.floor(Math.random() * 255);
   var b = Math.floor(Math.random() * 255);
-  this.$node.css('border-color', 'rgb('+ r + ',' + g + ',' + b + ')');
+  this.$node.css('border-color', 'rgb('+ r + ',' + g + ',' + b + ')',);
 
 
 
